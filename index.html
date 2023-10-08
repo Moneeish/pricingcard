@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+    }
+    
+    .pricing-card {
+        max-width: 300px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .price {
+        font-size: 36px;
+        font-weight: bold;
+        color: #007bff;
+    }
+    
+    .pricing-details ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .pricing-details li {
+        margin: 10px 0;
+        color: #555;
+    }
+    
+    button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    </style>
+</head>
+<body>
+    <div class="pricing-card">
+        <h2>Basic Plan</h2>
+        <p>For individuals</p>
+        <div class="price">$<span class="amount">19</span>/month</div>
+        <ul>
+            <li>10GB Storage</li>
+            <li>Unlimited Bandwidth</li>
+            <li>24/7 Support</li>
+        </ul>
+        <button>Get Started</button>
+    </div>
+
+    <div class="pricing-card">
+        <h2>Professional Plan</h2>
+        <p>For small businesses</p>
+        <div class="price">$<span class="amount">49</span>/month</div>
+        <ul>
+            <li>50GB Storage</li>
+            <li>Unlimited Bandwidth</li>
+            <li>Priority Support</li>
+        </ul>
+        <button>Get Started</button>
+    </div>
+
+    <div class="pricing-card">
+        <h2>Master Plan</h2>
+        <p>For enterprises</p>
+        <div class="price">$<span class="amount">99</span>/month</div>
+        <ul>
+            <li>100GB Storage</li>
+            <li>Unlimited Bandwidth</li>
+            <li>Premium Support</li>
+        </ul>
+        <button>Get Started</button>
+    </div>
+</body>
+</html>
